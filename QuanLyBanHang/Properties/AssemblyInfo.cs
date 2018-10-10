@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("QuanLyBanSach")]
+[assembly: AssemblyTitle("QuanLyBanHang")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("QuanLyBanSach")]
-[assembly: AssemblyCopyright("Copyright © Microsoft 2018")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("QuanLyBanHang")]
+[assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("2918021c-cc91-48a3-8224-e63c87d03830")]
+[assembly: Guid("f228f8aa-7f2c-49d9-8688-980b94118bf8")]
 
 // Version information for an assembly consists of the following four values:
 //

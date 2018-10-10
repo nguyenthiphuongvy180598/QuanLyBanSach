@@ -7,11 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace QuanLyBanSach
+namespace QuanLyBanHang.View
 {
-    public partial class Form1 : Form
+    public partial class frmSignUp : Form
     {
-        public Form1()
+        public frmSignUp()
         {
             InitializeComponent();
         }
