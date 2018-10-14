@@ -16,10 +16,6 @@ namespace QuanLyBanHang.View
             InitializeComponent();
         }
 
-        private void frmMain_Load(object sender, EventArgs e)
-        {
-            
-        }
 
         private void thoátToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -37,6 +33,19 @@ namespace QuanLyBanHang.View
             if (res == DialogResult.No)
                 e.Cancel = true;
         }
+
+        private void lbExit_MouseMove(object sender, MouseEventArgs e)
+        {
+            lbExit.BackColor = Color.Red;
+        }
+        private void lbExit_MouseLeave(object sender, EventArgs e)
+        {
+            lbExit.BackColor = Color.Transparent;
+        }
+
+
+
+
 
 
         

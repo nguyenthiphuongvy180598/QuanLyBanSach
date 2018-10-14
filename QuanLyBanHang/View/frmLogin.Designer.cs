@@ -56,6 +56,9 @@
             this.lbExit.TabIndex = 0;
             this.lbExit.Text = "x";
             this.lbExit.Click += new System.EventHandler(this.lbExit_Click);
+            this.lbExit.MouseLeave += new System.EventHandler(this.lbExit_MouseLeave);
+
+            this.lbExit.MouseMove += new System.Windows.Forms.MouseEventHandler(this.lbExit_MouseMove);
             // 
             // txtUserName
             // 
@@ -189,7 +192,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmLogin";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmLogin_FormClosing);
-            this.Load += new System.EventHandler(this.frmLogin_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picLogin)).EndInit();
             this.ResumeLayout(false);

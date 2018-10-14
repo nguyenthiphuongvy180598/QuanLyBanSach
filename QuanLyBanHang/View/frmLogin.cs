@@ -18,10 +18,7 @@ namespace QuanLyBanHang.View
 
         int count = 0;
 
-        private void frmLogin_Load(object sender, EventArgs e)
-        {
 
-        }
 
         private void lbExit_Click(object sender, EventArgs e)
         {
@@ -87,6 +84,16 @@ namespace QuanLyBanHang.View
                 e.Cancel = true;
         }
 
+
+        private void lbExit_MouseLeave(object sender, EventArgs e)
+        {
+            lbExit.BackColor = Color.Black;
+        }
+
+        private void lbExit_MouseMove(object sender, MouseEventArgs e)
+        {
+            lbExit.BackColor = Color.Red;
+        }
 
 
         
