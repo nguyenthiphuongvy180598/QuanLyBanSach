@@ -110,22 +110,22 @@
             // 
             this.traCứuToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("traCứuToolStripMenuItem.Image")));
             this.traCứuToolStripMenuItem.Name = "traCứuToolStripMenuItem";
-            this.traCứuToolStripMenuItem.Size = new System.Drawing.Size(158, 24);
+            this.traCứuToolStripMenuItem.Size = new System.Drawing.Size(214, 24);
             this.traCứuToolStripMenuItem.Text = "Tra cứu";
             // 
             // xuấtBáoCáoToolStripMenuItem
             // 
             this.xuấtBáoCáoToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("xuấtBáoCáoToolStripMenuItem.Image")));
             this.xuấtBáoCáoToolStripMenuItem.Name = "xuấtBáoCáoToolStripMenuItem";
-            this.xuấtBáoCáoToolStripMenuItem.Size = new System.Drawing.Size(158, 24);
-            this.xuấtBáoCáoToolStripMenuItem.Text = "Xuất báo cáo";
+            this.xuấtBáoCáoToolStripMenuItem.Size = new System.Drawing.Size(214, 24);
+            this.xuấtBáoCáoToolStripMenuItem.Text = "Xuất báo cáo tài chính";
             // 
             // thốngKêToolStripMenuItem
             // 
             this.thốngKêToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("thốngKêToolStripMenuItem.Image")));
             this.thốngKêToolStripMenuItem.Name = "thốngKêToolStripMenuItem";
-            this.thốngKêToolStripMenuItem.Size = new System.Drawing.Size(158, 24);
-            this.thốngKêToolStripMenuItem.Text = "Thống kê";
+            this.thốngKêToolStripMenuItem.Size = new System.Drawing.Size(214, 24);
+            this.thốngKêToolStripMenuItem.Text = "Thống kê sách";
             // 
             // lbExit
             // 

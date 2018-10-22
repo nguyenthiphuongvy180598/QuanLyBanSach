@@ -50,14 +50,13 @@
             this.lbExit.BackColor = System.Drawing.Color.Black;
             this.lbExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lbExit.ForeColor = System.Drawing.Color.White;
-            this.lbExit.Location = new System.Drawing.Point(570, 0);
+            this.lbExit.Location = new System.Drawing.Point(573, -1);
             this.lbExit.Name = "lbExit";
-            this.lbExit.Size = new System.Drawing.Size(30, 31);
+            this.lbExit.Size = new System.Drawing.Size(27, 31);
             this.lbExit.TabIndex = 0;
             this.lbExit.Text = "x";
             this.lbExit.Click += new System.EventHandler(this.lbExit_Click);
             this.lbExit.MouseLeave += new System.EventHandler(this.lbExit_MouseLeave);
-
             this.lbExit.MouseMove += new System.Windows.Forms.MouseEventHandler(this.lbExit_MouseMove);
             // 
             // txtUserName
@@ -89,9 +88,9 @@
             this.lbName.ForeColor = System.Drawing.Color.White;
             this.lbName.Location = new System.Drawing.Point(12, 16);
             this.lbName.Name = "lbName";
-            this.lbName.Size = new System.Drawing.Size(552, 41);
+            this.lbName.Size = new System.Drawing.Size(552, 51);
             this.lbName.TabIndex = 1;
-            this.lbName.Text = "ABC Book Store                ";
+            this.lbName.Text = "VyMãn Book Store                ";
             // 
             // txtPassword
             // 
